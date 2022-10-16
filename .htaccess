@@ -1,0 +1,11 @@
+ErrorDocument 401 /error.htm
+ErrorDocument 403 /error.htm
+ErrorDocument 404 /error.htm
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^(.*)\.htm$ /index.php?nonajax=1&cmd=$1 [NC]
+
+<Files *.xml>
+deny from all
+</Files>

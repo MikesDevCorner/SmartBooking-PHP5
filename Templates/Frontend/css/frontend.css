@@ -1,0 +1,64 @@
+html, body {
+  font:normal 11px tahoma;
+  margin:0;
+  padding:0;
+  border:0 none;
+  overflow:hidden;
+  height:100%;
+  scrollbar-base-color:#DCE7EE;
+  scrollbar-3dlight-color:#e4e8ed;
+  scrollbar-arrow-color:#000000;
+  scrollbar-darkshadow-color:#666666;
+  scrollbar-face-color:#C1D3EA;
+  scrollbar-highlight-color:#ffffff;
+  scrollbar-track-color:#DFE9F5;
+}
+
+
+p {
+  margin:5px;
+}
+
+
+#northbox div {
+	background-color: #a3a3a3;
+	background-image: url(../../../Resources/images/headerback.jpg);
+	background-repeat:repeat-x;
+	background-position: top right;
+	text-align:right;
+	text-align:right;
+}
+
+
+/* CSS für den Loading-Indicator - Also für die Lademaske */
+
+#loading{
+  position:absolute;
+  left:40%;
+  top:40%;
+  padding:3px;
+  z-index:20001;
+  height:auto;
+  border:1px solid #aaa;
+}
+
+
+#loadingDiv {
+  margin-right:8px;
+  float:left;
+  vertical-align:top;
+}
+
+
+#loading .loading-indicator{
+  background:white;
+  color:#444;
+  font:bold 13px tahoma;
+  padding:10px;
+  margin:0;
+  height:auto;
+}
+
+#loading-msg {
+  font: normal 10px tahoma;
+}

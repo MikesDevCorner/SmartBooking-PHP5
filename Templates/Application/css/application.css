@@ -1,0 +1,205 @@
+/* Allgemein gültige CSS */
+
+html, body {
+  font:normal 11px tahoma;
+  margin:0;
+  padding:0;
+  border:0 none;
+  overflow:hidden;
+  height:100%;
+  scrollbar-base-color:#DCE7EE;
+  scrollbar-3dlight-color:#e4e8ed;
+  scrollbar-arrow-color:#000000;
+  scrollbar-darkshadow-color:#666666;
+  scrollbar-face-color:#C1D3EA;
+  scrollbar-highlight-color:#ffffff;
+  scrollbar-track-color:#DFE9F5;
+}
+
+
+p {
+  margin:5px;
+}
+
+
+#northbox div {
+	background-color: #a3a3a3;
+	background-image: url(../../../Resources/images/headerback.jpg);
+	background-repeat:repeat-x;
+	background-position: top right;
+	text-align:right;
+	text-align:right;
+}
+
+
+.x-grid3-row-alt {
+	background:url(../../../Resources/images/grey.png);
+	background-color:none;
+}
+
+.x-grid3-row-over {
+	/*border-color:#666;*/
+	/*background-color:#efefef !important;*/
+	background-image:url(../../../Resources/images/yellow.png)!important;
+    
+}
+
+.x-grid3-row td {
+	line-height: 16px;
+}
+
+.x-grid3-row {
+    border-color:#dddddd;
+	border-style:solid;
+    border-top-color:#fff;
+}
+
+
+.x-grid3-row-selected {
+	/*background-color: #ffffcf !important;*/
+	background-image:url(../../../Resources/images/black.png)!important;
+	/*border-color:#DDD;*/
+}
+
+.lightred {
+	background-image:url(../../../Resources/images/red.png);
+}
+
+.lightgreen {
+	background-image:url(../../../Resources/images/green.png);
+}
+
+
+
+#bl2_center .x-grid3-scroller {
+	background-image: url(../../../Resources/images/hg.gif);
+}
+
+
+#bl1_westpanel td.x-btn-mc {
+	text-align: left;
+}
+
+
+
+
+/* Icon-CLS - Also Pics für die Icons */
+.anfrage {
+	background-image:url(../../../Resources/images/attachment.png) !important;
+}                 
+.buchungen {
+	background-image:url(../../../Resources/images/folder.png) !important;
+}                
+.kunden {
+	background-image:url(../../../Resources/images/smiley.png) !important;                 
+}
+
+.auswertungen {
+	background-image:url(../../../Resources/images/bar_chart.png) !important;                 
+}
+
+.leistungen {
+	background-image:url(../../../Resources/images/shopping_cart.png) !important;                 
+}
+
+.partner {
+	background-image:url(../../../Resources/images/group.png) !important;                 
+}
+
+.packages {
+	background-image:url(../../../Resources/images/archive.png) !important;                 
+}
+
+.user {
+	background-image:url(../../../Resources/images/user.png) !important;                 
+}
+
+.herbergen {
+	background-image:url(../../../Resources/images/home.png) !important;                 
+}
+
+.logout {
+	background-image:url(../../../Resources/images/exit.png) !important;                 
+}
+
+.add {
+	background-image:url(../../../Resources/images/add.png) !important;                 
+}
+.delete {
+	background-image:url(../../../Resources/images/delete.png) !important;                 
+}
+.deny {
+	background-image:url(../../../Resources/images/deny.png) !important;                 
+}
+.grant {
+	background-image:url(../../../Resources/images/grant.png) !important;                 
+}
+.save {
+	background-image:url(../../../Resources/images/save.png) !important;                 
+}
+.archiv {
+	background-image:url(../../../Resources/images/archiv.png) !important;
+}
+.lesen {
+	background-image:url(../../../Resources/images/lesen.png) !important;
+}
+.schreiben {
+	background-image:url(../../../Resources/images/schreiben.png) !important;
+}
+.options {
+	background-image:url(../../../Resources/images/options.png) !important;
+}
+.email {
+	background-image:url(../../../Resources/images/email.png) !important;
+}
+.password {
+	background-image:url(../../../Resources/images/password.png) !important;
+}
+
+.print {
+	background-image:url(../../../Resources/images/print.gif) !important;
+}
+.redboldtext {
+	color:red;
+	font-weight: bold !important;
+}
+.redtext {
+	color:red;
+}
+.greentext {
+	color:green;
+}
+
+
+/* CSS für den Loading-Indicator - Also für die Lademaske */
+
+#loading{
+  position:absolute;
+  left:40%;
+  top:40%;
+  padding:3px;
+  z-index:20001;
+  height:auto;
+  border:1px solid #aaa;
+}
+
+
+#loadingDiv {
+  margin-right:8px;
+  float:left;
+  vertical-align:top;
+}
+
+
+#loading .loading-indicator{
+  background:white;
+  color:#444;
+  font:bold 13px tahoma;
+  padding:10px;
+  margin:0;
+  height:auto;
+}
+
+#loading-msg {
+  font: normal 10px tahoma;
+}
